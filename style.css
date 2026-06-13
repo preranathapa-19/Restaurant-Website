@@ -5,12 +5,36 @@
 }
 
 body, html {
+    font-family: 'Times New Roman', Times, serif;
     height: 100%;
     width: 600px;
 
 }
 
-
+.container{
+    margin: 0 auto; 
+}
+.hero{
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.hero-image img{
+    width: 500px;
+    height: auto;
+    border-radius: 190px;
+    margin-left: 190px;
+}
+.hero-content{
+    margin-left: 20px;    
+    
+}
+.hero-content  h3{
+    background-color: green;
+    color: white;
+    margin-bottom: 25px;
+}
 
 .offer-text{
     background-color: green;
@@ -20,6 +44,7 @@ body, html {
 
 .h1{
     font-size: xx-large;
+    margin-bottom: 15px;
 }
 
 .button{
@@ -28,6 +53,8 @@ body, html {
     border-radius: 4px;
     padding: 5px;
     border-color: navajowhite;
+    cursor: pointer;
+    margin-top: 15px;
 }
 
 button:hover{
