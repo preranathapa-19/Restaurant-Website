@@ -3,3 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body, html {
+    height: 100%;
+    width: 600px;
+
+}
+
+
+
+.offer-text{
+    background-color: green;
+    padding: 5px;
+    color: white;
+}
+
+.h1{
+    font-size: xx-large;
+}
+
+.button{
+    color:white ;
+    background-color: burlywood;
+    border-radius: 4px;
+    padding: 5px;
+    border-color: navajowhite;
+}
+
+button:hover{
+    background-color:palevioletred ;
+    color: black;
+}
