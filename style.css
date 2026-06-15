@@ -4,63 +4,67 @@
     box-sizing: border-box;
 }
 
-body, html {
-    font-family: 'Times New Roman', Times, serif;
+html,
+body{
     height: 100%;
-    width: 600px;
-
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container{
     display: flex;
-    
-   
+    justify-content: center;
 }
+
 .hero{
     display: flex;
-    width: 1100px;
     justify-content: space-between;
+    align-items: center;
+    width: 1100px;
     margin-top: 50px;
+    gap: 50px;
 }
+
 .hero-image img{
     width: 500px;
     height: auto;
     border-radius: 190px;
-    margin-left: 190px;
 }
+
 .hero-content{
-    margin-left: 20px; 
-    
-    
+    max-width: 400px;
 }
-.hero-content  h3{
+
+.hero-content h3{
     background-color: green;
     color: white;
+    padding: 8px 15px;
+    display: inline-block;
     margin-bottom: 25px;
 }
 
-.offer-text{
-    background-color: green;
-    padding: 5px;
-    color: white;
+.hero-content h1{
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 20px;
 }
 
-.h1{
-    font-size: xx-large;
-    margin-bottom: 15px;
+.hero-content p{
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 .button{
-    color:white ;
     background-color: burlywood;
-    border-radius: 4px;
-    padding: 5px;
-    border-color: navajowhite;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
     cursor: pointer;
-    margin-top: 15px;
 }
 
-button:hover{
-    background-color:palevioletred ;
+.button:hover{
+    background-color: palevioletred;
     color: black;
 }
+
