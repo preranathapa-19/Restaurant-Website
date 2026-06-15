@@ -68,3 +68,21 @@ body{
     color: black;
 }
 
+nav{
+    padding: 20px 40px;
+}
+
+nav h3{
+    font-size: 32px;
+}
+
+nav span{
+    color: green;
+    font-size: larger;
+}
+
+.hero-footer{
+    display: flex;
+    align-items: center;
+    
+}
