@@ -84,5 +84,32 @@ nav span{
 .hero-footer{
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 40px;
     
+}
+
+.menu-section{
+    display: flex;
+    padding-top: 70px;
+}
+
+.menu-header{
+    display: inline;
+     justify-content: center;
+    align-items: center;
+     
+   
+}
+
+.menu-header h3{
+    color:white ;
+    background-color: green;
+    
+  
+    
+}
+.menu-header h1{
+    font-size:larger;
 }
