@@ -41,7 +41,9 @@ body{
     padding: 8px 15px;
     display: inline-block;
     margin-bottom: 25px;
+    
 }
+
 
 .hero-content h1{
     font-size: 60px;
@@ -55,17 +57,20 @@ body{
 }
 
 .button{
-    background-color: burlywood;
+    background-color: rgb(227, 166, 86);
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 
 .button:hover{
     background-color: palevioletred;
     color: black;
+    
+    
 }
 
 nav{
@@ -106,10 +111,24 @@ nav span{
 .menu-header h3{
     color:white ;
     background-color: green;
-    
-  
-    
+
 }
 .menu-header h1{
     font-size:larger;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    background-color: rgb(243, 232, 218);
+    color: black;
+    padding: 30px ;
+
+}
+
+.footer-text ul{
+    list-style: none;
+
 }
