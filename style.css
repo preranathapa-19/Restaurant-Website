@@ -96,7 +96,6 @@ nav span{
 }
 
 .menu-section{
-    display: flex;
     padding-top: 70px;
 }
 
@@ -111,10 +110,21 @@ nav span{
 .menu-header h3{
     color:white ;
     background-color: green;
-
+    
+    
+    
 }
-.menu-header h1{
-    font-size:larger;
+
+.menu-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    padding: 60px 60px;
+    gap: 20px;
+}
+
+.menu-images img{
+    width: 250px;
+
 }
 
 .footer-text{
