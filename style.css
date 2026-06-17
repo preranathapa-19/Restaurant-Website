@@ -13,7 +13,8 @@ body{
 
 .container{
     display: flex;
-    justify-content: center;
+       justify-content: center;
+    
 }
 
 .hero{
@@ -110,7 +111,7 @@ nav span{
 .menu-header h3{
     color:white ;
     background-color: green;
-    
+
     
     
 }
@@ -130,7 +131,6 @@ nav span{
 .footer-text{
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 90px;
     background-color: rgb(243, 232, 218);
     color: black;
@@ -141,4 +141,19 @@ nav span{
 .footer-text ul{
     list-style: none;
 
+}
+
+.footer-text button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 3px;
+}
+
+.footer-text h2{
+    font-size: 32px;
+}
+
+.footer-text span{
+    color: green;
+    font-size: larger;
 }
