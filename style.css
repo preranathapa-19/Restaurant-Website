@@ -101,11 +101,9 @@ nav span{
 }
 
 .menu-header{
-    display: inline;
-     justify-content: center;
-    align-items: center;
-     
-   
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 
 .menu-header h3{
