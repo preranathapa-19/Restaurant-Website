@@ -42,7 +42,7 @@ body{
     padding: 8px 15px;
     display: inline-block;
     margin-bottom: 25px;
-    
+
 }
 
 
@@ -109,9 +109,10 @@ nav span{
 .menu-header h3{
     color:white ;
     background-color: green;
-
-    
-    
+    display: inline;
+    padding: 7px;
+    border-radius: 7px;
+   
 }
 
 .menu-images{
