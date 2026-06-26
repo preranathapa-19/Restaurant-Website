@@ -148,8 +148,8 @@ nav span{
     display: flex;
     justify-content: center;
     gap: 90px;
-    background-color: rgb(243, 232, 218);
-    color: black;
+    background-color: rgba(243, 232, 218, 0.789);
+    color: rgba(0, 0, 0, 0.442);
     padding: 30px ;
     margin-top: 70px;
     flex-wrap: wrap;
@@ -179,7 +179,7 @@ nav span{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.536);
     color: white;
     text-decoration: none;
     transition: transform 0.2s ease, background-color 0.2s ease;
