@@ -135,7 +135,7 @@ nav span{
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     padding: 60px 20px;
-    gap: 20px;
+    gap: 30px;
 }
 .menu-images img{
     width: 100%;
@@ -147,7 +147,7 @@ nav span{
 .footer-text{
     display: flex;
     justify-content: center;
-    gap: 90px;
+    gap: 80px;
     background-color: rgba(243, 232, 218, 0.789);
     color: rgba(0, 0, 0, 0.442);
     padding: 30px ;
