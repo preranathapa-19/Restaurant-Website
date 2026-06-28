@@ -88,11 +88,19 @@ nav{
 
 nav h3{
     font-size: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 nav span{
     color: green;
     font-size: larger;
+}
+
+.nav-icon{
+    color: green;
+    font-size: 24px;
 }
 
 .hero-footer{
@@ -109,6 +117,18 @@ nav span{
 .hero-footer > div{
     flex: 1 1 250px;
     text-align: center;
+}
+
+.hero-footer h2{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.feature-icon{
+    color: green;
+    font-size: 20px;
 }
 
 .menu-section{
@@ -148,8 +168,8 @@ nav span{
     display: flex;
     justify-content: center;
     gap: 80px;
-    background-color: rgba(243, 232, 218, 0.789);
-    color: rgba(0, 0, 0, 0.442);
+    background-color: rgba(227, 213, 195, 0.862);
+    color: rgb(0, 0, 0);
     padding: 30px ;
     margin-top: 70px;
     flex-wrap: wrap;
@@ -203,6 +223,10 @@ nav span{
     nav{
         padding: 16px 20px;
         text-align: center;
+    }
+
+    nav h3{
+        justify-content: center;
     }
 
     .hero{
